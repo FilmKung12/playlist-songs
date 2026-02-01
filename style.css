@@ -1,0 +1,33 @@
+body { font-family: Tahoma; margin: 30px; }
+h1 { text-align: center; }
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 320px;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+.no {
+    width: 60px;
+    text-align: center;
+}
+
+#artistSelect {
+    padding: 8px;
+    font-size: 14px;
+}

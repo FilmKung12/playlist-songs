@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <title>เพลย์ลิสต์รวมเพลง</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>เพลย์ลิสต์รวมเพลง</h1>
+
+    <div class="top-bar">
+        <input type="text" id="searchInput" placeholder="ค้นหาชื่อเพลง">
+
+        <div>
+            <label for="artistSelect">รวมชื่อศิลปิน:</label>
+            <select id="artistSelect">
+            <option value="">ศิลปินทั้งหมด</option>
+        </select>
+        </div>
+    </div>
+
+    </div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th class="no">ลำดับ</th>
+                <th>ชื่อเพลง</th>
+                <th>ชื่อศิลปิน</th>
+            </tr>
+        </thead>
+        <tbody id="songTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
